@@ -1,4 +1,7 @@
+import random
+
 def play_game():
+    number = random.randint(1,100)
     attemps = 0
     guessed_correctly = False
 
