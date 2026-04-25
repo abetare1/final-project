@@ -22,3 +22,18 @@ def play_game():
         guess = get_guess()
         guesses.append(guess)
         attemps += 1
+
+        if guess < 1 or guess > 100:
+            print("Your guess must be between 1 and 100.")
+        elif guess > number:
+            print("Too high")
+        elif guess < number:
+            print("Too low")
+        else:
+            print("Correct!")
+            print("Congratulations!")
+            print("Attempts:", attempts)
+            print("Your guesses were:", guesses)
+            guessed_correctly = True
+
+play_game()
