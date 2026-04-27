@@ -1,2 +1,11 @@
 # final-project
-This project is a terminal-based Number Guessing Game in Python where the program generates a number between 1 and 100 and the user tries to guess it. It gives feedback (too high/low), tracks attempts, validates input, and runs until the correct guess is made.
+
+Number Guessing Game
+
+Description:
+This is a single player, terminal based number guessing game where the computer generates a random number and the player attempts to guess based on feedback. After each guess, the program gives feedback such as “Too High” or “Too Low” until the correct number is guessed.
+
+Insturctions to run Program:
+- make sure python is installed
+- download or open the project file
+- run the program using the project.py file
