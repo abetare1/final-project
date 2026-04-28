@@ -3,7 +3,7 @@
 Number Guessing Game
 
 Description:
-This is a single player, terminal based number guessing game where the computer generates a random number and the player attempts to guess based on feedback. After each guess, the program gives feedback such as “Too High” or “Too Low” until the correct number is guessed.
+This is a single player, terminal based number guessing game where the computer generates a random number and the player attempts to guess based on feedback. After each guess, the program gives feedback such as “Too high” or “Too low” until the correct number is guessed.
 
 Insturctions to run Program:
 - make sure python is installed
