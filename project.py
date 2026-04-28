@@ -1,6 +1,10 @@
 import random
 
 def get_guess():
+    """"
+        Gets a valid number from the user
+        Returns the user's guess as an integer
+    """
     user_input = input("Enter your guess: ")
 
     while not user_input.isdigit():
@@ -10,6 +14,11 @@ def get_guess():
     return int(user_input)
 
 def play_game():
+    """ 
+        Runs the number guessing game.
+        Generates a random number, checks the user's guesses, 
+        gives feedback, and tracks the number of attemps.
+    """
     number = random.randint(1,100)
     attemps = 0
     guessed_correctly = False
