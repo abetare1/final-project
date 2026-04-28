@@ -1,7 +1,7 @@
 import random
 
 def get_guess():
-    """"
+    """
         Gets a valid number from the user
         Returns the user's guess as an integer
     """
@@ -20,7 +20,7 @@ def play_game():
         gives feedback, and tracks the number of attemps.
     """
     number = random.randint(1,100)
-    attemps = 0
+    attempts = 0
     guessed_correctly = False
     guesses = []
 
