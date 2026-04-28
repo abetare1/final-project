@@ -17,7 +17,7 @@ def play_game():
     """ 
         Runs the number guessing game.
         Generates a random number, checks the user's guesses, 
-        gives feedback, and tracks the number of attemps.
+        gives feedback, and tracks the number of attempts.
     """
     number = random.randint(1,100)
     attempts = 0
